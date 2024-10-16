@@ -8,11 +8,11 @@ const surveySchema = new mongoose.Schema({
     overview: { 
         type: String
      },
-    template_id: { 
-        type: mongoose.Schema.Types.ObjectId,
-        ref: 'Template',
-        required: true 
-    },
+    // template_id: { 
+    //     type: mongoose.Schema.Types.ObjectId,
+    //     ref: 'Template',
+    //     required: true 
+    // },
     questions: { 
         type: Array, 
         required: true 

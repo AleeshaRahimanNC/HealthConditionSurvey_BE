@@ -9,9 +9,9 @@ const connectDB = require('./config/db');
 const seedDefaultTemplates = require('./utils/seedDefaultTemplates');
 
 
-const templatesRoutes = require('./routes/templates');
-const surveysRoutes = require('./routes/surveys');
-const responsesRoutes = require('./routes/responses');
+const templatesRoutes = require('./routes/templatesRoutes');
+const surveysRoutes = require('./routes/surveysRoutes');
+const responsesRoutes = require('./routes/responsesRoutes');
 
 const app = express();
 
